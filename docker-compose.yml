@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  system-manager:
+    image: ghcr.io/takanotaiga/mlops-cloud-backend-sm:sha-f67b257
+    environment:
+      SSH_USERNAME: USER_NAME
+      SSH_PASSWORD: PASSWORD
+    restart: unless-stopped
