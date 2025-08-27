@@ -6,4 +6,4 @@ services:
     environment:
       SSH_USERNAME: USER_NAME
       SSH_PASSWORD: PASSWORD
-    restart: unless-stopped
+    restart: always
